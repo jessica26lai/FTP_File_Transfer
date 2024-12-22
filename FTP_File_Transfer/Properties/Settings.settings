@@ -1,0 +1,103 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FTP_File_Transfer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SMTP_Server" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">xxxxxxxxx</Value>
+    </Setting>
+    <Setting Name="EmailFrom" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">xxxxxxxx</Value>
+    </Setting>
+    <Setting Name="PendingTimeLimit" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1800000</Value>
+    </Setting>
+    <Setting Name="installationPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Scheduler\FTP_File</Value>
+    </Setting>
+    <Setting Name="EmailBodySchedulerError" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">This is the FTP Log on {0:dd/MM/yyyy HH:mm:ss}.&lt;br/&gt;&lt;br/&gt;Errors occurred. &lt;br/&gt; Please refer to attached log file for details.</Value>
+    </Setting>
+    <Setting Name="SupportEmailTo" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">xxxxxxxxx</Value>
+    </Setting>
+    <Setting Name="EmailSendingTimeLimit" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">24</Value>
+    </Setting>
+    <Setting Name="DestHostName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">xxxxxxxxx</Value>
+    </Setting>
+    <Setting Name="DestUserName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">xxxxxxxxx</Value>
+    </Setting>
+    <Setting Name="DestPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">xxxxxxxxx</Value>
+    </Setting>
+    <Setting Name="DestSshHostKeyFingerprint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">xxxxxxxxx</Value>
+    </Setting>
+    <Setting Name="SourceTimeLimit" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1800000</Value>
+    </Setting>
+    <Setting Name="SourcePath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Scheduler\FTP_File\Source</Value>
+    </Setting>
+    <Setting Name="EmailSubjectSuccess" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">FTP File Transfer - Success</Value>
+    </Setting>
+    <Setting Name="EmailSubjectError" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">FTP File Transfer - Errors occurred</Value>
+    </Setting>
+    <Setting Name="DestPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">7522</Value>
+    </Setting>
+    <Setting Name="DestPathFTP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">/DEV/In</Value>
+    </Setting>
+    <Setting Name="EmailBodySuccess" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">This is the FTP Monitor Log on {0:dd/MM/yyyy HH:mm:ss}.</Value>
+    </Setting>
+    <Setting Name="BackupPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Scheduler\FTP_File\Backup</Value>
+    </Setting>
+    <Setting Name="LogTable" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">FTP_FileTransferLog</Value>
+    </Setting>
+    <Setting Name="ApplicationName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">FTP File Transfer</Value>
+    </Setting>
+    <Setting Name="DestPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Scheduler\FTP_File\Destination</Value>
+    </Setting>
+    <Setting Name="SourceHostName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">xxxxxx</Value>
+    </Setting>
+    <Setting Name="SourceUserName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">xxxxxxxx</Value>
+    </Setting>
+    <Setting Name="SourcePassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">xxxxxxx</Value>
+    </Setting>
+    <Setting Name="SourceSshHostKeyFingerprint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">xxxxxxxxxx</Value>
+    </Setting>
+    <Setting Name="SourcePort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">7522</Value>
+    </Setting>
+    <Setting Name="SourcePathFTP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">/DEV/In/TEST</Value>
+    </Setting>
+    <Setting Name="FTPTransferTempPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Scheduler\FTP_File\Temp</Value>
+    </Setting>
+    <Setting Name="sendSuccessEmail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Y</Value>
+    </Setting>
+    <Setting Name="ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=localhost\SQLEXPRESS2008;Initial Catalog=UAT;Integrated Security=True;&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=localhost\SQLEXPRESS2008;Initial Catalog=UAT;Integrated Security=True;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
